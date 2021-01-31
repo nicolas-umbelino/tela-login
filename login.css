@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background:rgb(0, 0, 0);
+}
+
+
+.form {
+    width: 280px;
+    margin: auto;
+    padding-top: 245px;
+}
+
+
+.top {
+    box-shadow: 1px 1px 5px white;
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+}
+
+
+.email {
+    padding-top: 15px;
+}
+
+
+.email > input  {
+    outline: 0;
+}  
+
+
+.password {
+    padding-top: 10px;
+    margin-right: 3px;
+    padding-top: 15px;
+}
+
+
+.password > input {
+    outline: 0;
+}
+
+
+.botao {
+    margin: 15px;
+    margin-bottom: 5px;
+    background-color:rgb(0, 0, 0);
+    width: 30%;
+    border-radius: 8px;
+    outline: 0;
+    color:white;
+    margin-left: 30px;
+}
+
+
+.botao:hover {
+    background:grey;
+}
+
+
+.register {
+    padding-right: 195px;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+
+.reset {
+    padding-left: 195px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: -18px;
+}
+
+
+.register > a{
+    color:blue;
+}
+
+
+.reset > a{
+    color:blue;
+}
+
+
